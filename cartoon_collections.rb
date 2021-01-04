@@ -29,3 +29,10 @@ def find_the_cheese(cheese)
     cheese_types.include?(cheese)
   end
 end
+
+
+def words_with_b (words)
+  answer = false 
+  words.each do |word|
+    if word[0] != b  
+    
